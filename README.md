@@ -24,8 +24,6 @@ Temporal action detection (TAD) is a vital challenge in computer vision and the 
 ---
 
 
----
-
 ## ⚙️ Installation
 
 Clone the repository and install the dependencies:
@@ -43,6 +41,7 @@ To train the model:
 
 ```bash
 python src/train.py --config configs/default.yaml
+
 
 
 

@@ -25,6 +25,7 @@ Temporal action detection (TAD) is a vital challenge in computer vision and the 
 
 ## 🛠 Installation
 
+```markdown
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name

@@ -32,11 +32,12 @@ pip install -r requirements.txt
 
 
 ## 🚀 Usage
-Training
 
-bash scripts/run_train.sh
-bash scripts/run_eval.sh
-You can download our pretrained checkpoints from this link and place them in the checkpoints/ directory.
+To train the model:
+
+```bash
+python src/train.py --config configs/default.yaml
+
 
 ## 📊 Results
 Dataset	Metric	Baseline	Ours

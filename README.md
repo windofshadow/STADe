@@ -42,40 +42,28 @@ pip install -r requirements.txt
 Or with conda:
 
 
-🚀 Usage
+## 🚀 Usage
 Training
-bash
-复制
-编辑
-bash scripts/run_train.sh
-Or with Python:
 
-bash
-复制
-编辑
-python src/train.py --config configs/default.yaml
-Evaluation
-bash
-复制
-编辑
+bash scripts/run_train.sh
 bash scripts/run_eval.sh
 You can download our pretrained checkpoints from this link and place them in the checkpoints/ directory.
 
-📊 Results
+## 📊 Results
 Dataset	Metric	Baseline	Ours
 Dataset A	mAP@0.5	81.2	86.7
 Dataset B	F1	0.88	0.93
 
 Additional qualitative results and visualizations can be found in the results/ folder.
 
-🧠 Key Contributions
+## 🧠 Key Contributions
 🔧 A new method for sensory temporal action detection using Temporal-Spectral Representation Learning
 
 📈 Strong improvements over prior work on multiple datasets
 
 📦 Pretrained models and reproducible evaluation pipeline
 
-📝 Citation
+## 📝 Citation
 If you find this work helpful, please cite:
 
 @article{Li2025STADe,
@@ -88,10 +76,10 @@ If you find this work helpful, please cite:
   publisher    = {IEEE}
 }
 
-📬 Contact
+## 📬 Contact
 For questions or collaborations, feel free to reach out:
 
 ✉️ bing_li@uestc.edu.cn
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.

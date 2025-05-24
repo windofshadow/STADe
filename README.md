@@ -23,13 +23,18 @@ Temporal action detection (TAD) is a vital challenge in computer vision and the 
 
 ---
 
-## 🛠 Installation
 
-```markdown
+---
+
+## ⚙️ Installation
+
+Clone the repository and install the dependencies:
+
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
+
 
 
 ## 🚀 Usage

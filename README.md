@@ -1,6 +1,7 @@
 # 🔬 Title of Your Research Paper
 Official implementation of the paper:  
 "STADe: Sensory Temporal Action Detection via Temporal-Spectral Representation Learning"
+
 Authors: Bing Li, Haotian Duan, Yun Liu, Le Zhang, Wei Cui, Joey Tianyi Zhou
 Published in *IEEE TPAMI*, 2025.  
 [[Paper](https://arxiv.org/abs/XXXX.XXXXX)] 

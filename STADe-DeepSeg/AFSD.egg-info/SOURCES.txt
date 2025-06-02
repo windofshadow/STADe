@@ -1,0 +1,8 @@
+README.md
+setup.py
+/root/tf-logs/STADe-DeepSeg/STADe-DeepSeg/AFSD/prop_pooling/boundary_max_pooling_cuda.cpp
+/root/tf-logs/STADe-DeepSeg/STADe-DeepSeg/AFSD/prop_pooling/boundary_max_pooling_kernel.cu
+AFSD.egg-info/PKG-INFO
+AFSD.egg-info/SOURCES.txt
+AFSD.egg-info/dependency_links.txt
+AFSD.egg-info/top_level.txt

@@ -1,4 +1,4 @@
-# 🔬 Title of Your Research Paper
+# 🔬 STADe: Sensory Temporal Action Detection via Temporal-Spectral Representation Learning
 Official implementation of the paper:  
 "STADe: Sensory Temporal Action Detection via Temporal-Spectral Representation Learning"
 Authors: Bing Li, Haotian Duan, Yun Liu, Le Zhang, Wei Cui, Joey Tianyi Zhou

@@ -38,7 +38,7 @@ Temporal action detection (TAD) is a vital challenge in computer vision and the 
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/windofshadow/STADe.git
 cd STADe-DeepSeg/STADe-DeepSeg
 pip install -r requirements.txt
 python3 setup.py develop

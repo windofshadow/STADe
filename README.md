@@ -3,7 +3,7 @@ Official implementation of the paper:
 "STADe: Sensory Temporal Action Detection via Temporal-Spectral Representation Learning"
 Authors: Bing Li, Haotian Duan, Yun Liu, Le Zhang, Wei Cui, Joey Tianyi Zhou
 Published in *IEEE TPAMI*, 2025.  
-[[Paper](https://arxiv.org/abs/XXXX.XXXXX)] 
+[[Paper](B. Li, H. Duan, Y. Liu, L. Zhang, W. Cui and J. T. Zhou, "STADe: Sensory Temporal Action Detection via Temporal-Spectral Representation Learning," in IEEE Transactions on Pattern Analysis and Machine Intelligence, doi: 10.1109/TPAMI.2025.3574367)] 
 
 ---
 
@@ -23,6 +23,15 @@ Temporal action detection (TAD) is a vital challenge in computer vision and the 
 
 ---
 
+### Environment
+- Python 3.7
+- PyTorch == 1.10.0 
+- CUDA == 11.3
+- python == 3.8
+- ubuntu == 20.04
+- GPU == RTX3090
+
+---
 
 ## ⚙️ Installation
 
@@ -30,10 +39,24 @@ Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+cd STADe-DeepSeg/STADe-DeepSeg
 pip install -r requirements.txt
+python3 setup.py develop
 ```
 
+### Data Preparation
+- **DeepSeg data:**
+1. Download the DeepSeg npy data.Baidu Netdisk:  https://pan.baidu.com/s/1b5EJTrzpDTgm-MsIzohZeQ?pwd=nzn7  (Password: nzn7) 
+2. Unzip the DeepSeg npy data to `./Public_Behave_Data_npy/` (Align with the `video_data_path` parameter in thumos14.yaml)
+- **Sebehave data:**
+1. Download Sebehave npy data (13.7GB): Baidu Netdisk: https://pan.baidu.com/s/1ac3AUZRYYnQXkeaYc_so2w?pwd=kq6d (Password: kq6d)
+2. Unzip the DeepSeg npy data to `./Sebehave_Data_npy/` (Align with the `video_data_path` parameter in thumos14.yaml)
+- **Wikeystroke data:**
+1. Download Wikeystroke npy data (13.7GB): Baidu Netdisk:  https://pan.baidu.com/s/11eKvRfICoOLOCCG1omWgbA?pwd=3hxg (Password: 3hxg)
+2. Unzip the Wikeystroke npy data to `./Wikeystroke_Data_npy/` (Align with the `video_data_path` parameter in thumos14.yaml)
+- **Wibehave data:**
+1. Download Wibehave npy data (13.7GB): Baidu Netdisk: https://pan.baidu.com/s/1iyFOc6kiGgime2VSjTbpEg?pwd=drp7  (Password: drp7)
+2. Unzip the Wibehave npy data to `./Wibehave_Data_npy/` (Align with the `video_data_path` parameter in thumos14.yaml)
 
 
 ## 🚀 Usage
@@ -41,18 +64,16 @@ pip install -r requirements.txt
 To train the model:
 
 ```bash
-python src/train.py --config configs/default.yaml
+1. cd .../STADe-DeepSeg
+2. python STADe-DeepSeg/train.py
+```
+To test the model:
+```bash
+1. cd .../STADe-DeepSeg
+2. python STADe-DeepSeg/test.py
 ```
 
 
-
-
-## 📊 Results
-Dataset	Metric	Baseline	Ours
-Dataset A	mAP@0.5	81.2	86.7
-Dataset B	F1	0.88	0.93
-
-Additional qualitative results and visualizations can be found in the results/ folder.
 
 ## 🧠 Key Contributions
 🔧 A new method for sensory temporal action detection using Temporal-Spectral Representation Learning
@@ -70,7 +91,7 @@ If you find this work helpful, please cite:
   journal      = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year         = {2025},
   note         = {To appear},
-  doi          = {10.1109/TPAMI.2025.xxxxx}, 
+  doi          = {10.1109/TPAMI.2025.3574367}, 
   publisher    = {IEEE}
 }
 
